@@ -71,6 +71,7 @@ We focus on:
 * Good trade-off between precision & recall
 
 **Confusion Matrix:**
+
 ![Logistic Regression Confusion Matrix](images/LogisticRegression_confusion_matrix.png)
 
 ### Decision Tree
