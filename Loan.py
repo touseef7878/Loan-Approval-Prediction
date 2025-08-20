@@ -47,9 +47,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 smote = SMOTE(random_state=42)
 X_train, y_train = smote.fit_resample(X_train, y_train)
 
-# ---------------------------
 # Step 3: Train Models
-# ---------------------------
 # Logistic Regression
 log_model = LogisticRegression(max_iter=1000)
 log_model.fit(X_train, y_train)
@@ -60,10 +58,8 @@ tree_model = DecisionTreeClassifier(max_depth=5, random_state=42)
 tree_model.fit(X_train, y_train)
 y_pred_tree = tree_model.predict(X_test)
 
-# ---------------------------
 # Step 4: Evaluation
-# ---------------------------
-
+# Create images directory if it doesn't exist
 # Ensure images folder exists
 os.makedirs("images", exist_ok=True)
 
