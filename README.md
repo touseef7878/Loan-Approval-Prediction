@@ -78,7 +78,6 @@ We focus on:
 
 * Slight overfitting tendency
 * Lower generalization compared to Logistic Regression
-
 **Confusion Matrix:**
 ![Decision Tree Confusion Matrix](images/DecisionTree_confusion_matrix.png)
 
